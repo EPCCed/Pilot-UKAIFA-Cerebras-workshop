@@ -1,5 +1,5 @@
 ---
-layout: workshop
+layout: lesson
 carpentry: "swc"
 venue: Online
 address: 
