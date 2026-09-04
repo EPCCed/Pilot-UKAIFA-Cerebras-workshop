@@ -6,8 +6,8 @@ address:
 country: "UK"
 language: "English"
 latlng: 
-humandate: "DD/MM/2026"
-humantime: "HH:MM"
+humandate: 1 Jan 2026
+humantime: 09:30
 startdate: 
 enddate: 
 instructor: ["Santiago Paredes Saenz"]
