@@ -17,6 +17,13 @@ collaborative_notes:
 root: .
 ---
 
+<div class="image123">
+    <img src="./assets/img/EPCC_logo.jpg" height="200" width="200" style="float:left">
+    <p>EPCC</p>
+    <img src="./assets/img/Pilot-UKAIFA-logo.jpg"/ height="200" width="200">
+    <p>Pilot-UKAIFA</p>
+</div>
+
 <h2>Description</h2>
 
 The aim of this workshop is to teach attendees how to train 
@@ -94,14 +101,10 @@ Before getting started here are a few pre-requisites:
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must have a working laptop or 
-  desktop computer with a Mac, Linux, or Windows operating system (not a 
-  tablet, Chromebook, etc.) that they have administrative privileges on. They 
-  should have access to a terminal (Mac and Linux users should have a terminal 
-  installed by default; Windows users should get either 
-  <a href="https://mobaxterm.mobatek.net/">MobaXterm</a> or 
-  <a href="https://www.putty.org/">PuTTY</a>. They are also required to abide 
-  by the <a href="https://www.archer2.ac.uk/about/policies/code-of-conduct.html">ARCHER2 Code of Conduct</a>.
+  <strong>Requirements:</strong> Participants must have an 
+  account on the EIDF Cerebras Cluster. They are also 
+  required to abide by the 
+  <a href="https://edinburgh-international-data-facility.ed.ac.uk/about/policies/terms-and-conditions">EIDF Terms and Conitions of Access</a>.
 </p>
 
 {% comment %}
@@ -113,7 +116,7 @@ Before getting started here are a few pre-requisites:
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organizers have checked that:
+  Where this workshop is taking place in person, the workshop organizers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
