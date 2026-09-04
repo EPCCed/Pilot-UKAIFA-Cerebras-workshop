@@ -17,10 +17,10 @@ collaborative_notes:
 root: .
 ---
 
-<div class="image123">
-    <img src="./assets/img/EPCC_logo.jpg" height="200" width="200" style="float:left">
+<div class="image12">
+    <img src="assets/img/EPCC_logo.jpg" height="200" width="200" style="float:left">
     <p>EPCC</p>
-    <img src="./assets/img/Pilot-UKAIFA-logo.jpg"/ height="200" width="200">
+    <img src="assets/img/Pilot-UKAIFA-logo.jpg"/ height="200" width="200">
     <p>Pilot-UKAIFA</p>
 </div>
 
