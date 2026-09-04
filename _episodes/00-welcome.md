@@ -9,7 +9,7 @@ questions:
 objectives:
 - "Understand how this course works, how I can get help and how I can give feedback."
 keypoints:
-- "We should all understand and follow the [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct/) to ensure this course is conducted in the best teaching environment."
+- "We should all understand and follow the [EIDF Terms and Conditions of Access](https://edinburgh-international-data-facility.ed.ac.uk/about/policies/terms-and-conditions) to ensure this course is conducted in the best teaching environment."
 - "The course will be flexible to best meet the learning needs of the attendees."
 - "Feedback is an essential part of our training to allow us to continue to improve and make sure the course is as useful as possible to attendees."
 ---
@@ -17,9 +17,9 @@ keypoints:
 ## Code of Conduct
 
 To make this as good a learning experience as possible for everyone involved we require all
-participants to adhere to the [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct/).
+participants to adhere to the [EIDF Terms and Conditions of Access](https://edinburgh-international-data-facility.ed.ac.uk/about/policies/terms-and-conditions).
 
-Any form or behaviour to exclude, intimidate, or cause discomfort is a violation of the Code of Conduct. In
+Any form or behaviour to exclude, intimidate, or cause discomfort is a violation of the Course Code of Conduct. In
 order to foster a positive and professional learning environment we encourage the following kinds of behaviours
 throughout this course:
 
@@ -29,8 +29,7 @@ throughout this course:
  - Focus on what is best for the course
  - Show courtesy and respect towards other course participants
 
-If you believe someone is violating the Code of Conduct, we ask that you report it to ARCHER2 Training Code
-of Conduct Committee [by completing this form](http://bit.ly/ARCHER-Training-Code-of-Conduct-Incident-Report),
+If you believe someone is violating the Code of Conduct, we ask that you report it to the **NEED SOMETHING HERE**
 who will take the appropriate action to address the situation.
 
 ## Course structure and method
@@ -43,15 +42,6 @@ the instructor demonstrating and then the attendees doing along with the instruc
 There are helpers available to assist you and to answer any questions you may have as we
 work through the material together. You should also feel free to ask questions of the instructor
 whenever you like. The instructor will also provide many opportunities to pause and ask questions.
-
-We will also make use of a shared collaborative document - the *etherpad*. You will find a link
-to this collaborative document on the course page. We will use it for a number of different purposes,
-for example, it may be used during exercises and instructors and helpers may put useful information
-or links in the etherpad that help or expand on the material being taught. If you have useful
-information to share with the class then please do add it to the etherpad. At the end of the course,
-we take a copy of the information in the etherpad, remove any personally-identifiable information 
-and post this on the course archive page so you should always be able to come back and find any
-information you found useful.
 
 ## Feedback
 
