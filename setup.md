@@ -2,6 +2,8 @@
 title: Setup
 ---
 
+# NEEDS UPDATING TO POINT TO EIDF INSTEAD OF ARCHER2
+
 This setup takes you through getting ready for the course by ensuring you have an SSH client installed and registering for an ARCHER2 account (you can also use an existing ARCHER2 account if you are already a user).
 
 Please try to complete the following setup tasks ahead of the lesson. 

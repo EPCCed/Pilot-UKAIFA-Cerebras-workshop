@@ -25,7 +25,7 @@ of the trained model, and run them on a system with different
 architecture (in this case, the EIDF GPU Cluster).
 
 This workshop expands on the 
-[Cerebras Modelzoo quickstar tutorial] (https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
+[Cerebras Modelzoo quickstar tutorial](https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
 and specifically looks at fine-tune a model to perform a new 
 task.
 
