@@ -1,39 +1,57 @@
 ---
-layout: lesson
+layout: workshop
 carpentry: "swc"
 venue: Online
 address: 
 country: "UK"
 language: "English"
 latlng: 
-humandate: 7 Dec 2023
-humantime: 09:30
+humandate: "DD/MM/2026"
+humantime: "HH:MM"
 startdate: 
 enddate: 
-instructor: ["Andy Turner"]
+instructor: ["Santiago Paredes Saenz"]
 helper:
-email: ["support@archer2.ac.uk"]
+email: ["info@ukaifa.org.uk"]
 collaborative_notes: 
 root: .
 ---
 
 <h2>Description</h2>
 
-This lesson provides an introduction to using ARCHER2 for users who:
-  - have already used other HPC systems; and
-  - want to use pre-installed simulation/modelling packages rather than compiling their own.
+The aim of this workshop is to teach attendees how to train 
+a model on the EIDF Cerebras CS-3 cluster, extract the weights
+of the trained model, and run them on a system with different 
+architecture (in this case, the EIDF GPU Cluster).
 
-The lesson aims to answer the following questions:
-  - What hardware is available on ARCHER2?
-    + What does it consist of (login nodes, compute nodes, file systems, backup)?
-    + How does this impact me as a user?
-  - How can I access ARCHER2 interactively and transfer data?
-  - What does the ARCHER2 software environment look like and how do I access software?
-  - How do I write job submission scripts and submit them to the ARCHER2 scheduler?
-  - How can I be a good ARCHER2 citizen?
-  - How can I check what resources I am using and look at historical usage?
-  - What are the next steps for me using ARCHER2 and how can I get more help?
+This workshop expands on the 
+[Cerebras Modelzoo quickstar tutorial] (https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
+and specifically looks at fine-tune a model to perform a new 
+task.
 
+<h2>Pre-requisites</h2>
+
+Before getting started here are a few pre-requisites:
+
+  * Access to the Cerebras cluster.
+    * I also suggest following the Cerebras tutorial on 
+      the EIDF documentation.
+  * A HuggingFace account and access to the Llama2 family 
+    of models.
+    * Both are free, but access to the models needs to be 
+      requested and approved (it shouldn't take too long, 
+      I got approved roughly 30 min after requesting).
+  * You may also want to follow the 
+    [EIDF tutorials](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes),
+    and specifically the 
+    [EIDF tutorial on fine tuning models](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example).
+    * A lot of the concepts and tool setup build on top of 
+      those (kubernetes pods, persistent volume claims, 
+      volume mounts, etc.)
+    * The 
+      [train_gsm8k.md](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
+      specifically has information about the dataset we will 
+      use and how the evaluation is made.
 <hr/>
 
 <h2 id="general">General Information</h2>

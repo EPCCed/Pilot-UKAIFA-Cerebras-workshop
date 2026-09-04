@@ -6,7 +6,7 @@ This is not an official Carpentries lesson, but the Carpentries lesson template 
 
 ## Maintainer(s)
 
-* Andy Turner
+* Santiago Paredes Saenz
 
 ## Authors
 
@@ -17,6 +17,15 @@ A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 To cite this lesson, please consult with [CITATION](CITATION)
 
 [lesson-example]: https://carpentries.github.io/lesson-example
+
+## Funding
+
+Funded by the European Union under Grant Agreement 
+No°101263239. Views and opinions expressed are however 
+those of the author(s) only and do not necessarily 
+reflect those of the European Union. Neither the European 
+Union nor the granting authority can be held responsible 
+for them.
 
 ## License
 
