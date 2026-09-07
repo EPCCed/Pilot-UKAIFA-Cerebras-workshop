@@ -2,13 +2,21 @@
 title: "Converting the fine-tuned model back to HuggingFace format"
 teaching: 15
 exercises: 0
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Convert the fine-tuned CS model to HF format
 
@@ -27,5 +35,10 @@ cszoo checkpoint convert --model llama \
 More information about converting CS to infer in GPU can be 
 found in [this guide](./train_on_csx_then_infer_on_GPU.md)
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 

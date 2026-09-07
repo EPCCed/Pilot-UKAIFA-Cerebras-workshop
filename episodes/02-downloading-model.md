@@ -2,13 +2,20 @@
 title: "Downloading the model"
 teaching: 30
 exercises: 15
-questions:
-- "How do I download my pre-trained model to the EIDF Cerebras Cluster"
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How do I download my pre-trained model to the EIDF Cerebras Cluster
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 **NOTE**: For the running of the workshop, it might be fun to 
 have some of the attendees re-train Llama2 and some retrain 
@@ -75,5 +82,9 @@ The file `~/finetuning_llama2/from_hf/config.json` will
 have important information and paramters of model that we 
 will need later on (`vocab_size`,layer structure info, etc.).
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

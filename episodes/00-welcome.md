@@ -2,17 +2,21 @@
 title: "Welcome"
 teaching: 15
 exercises: 0
-questions:
-- "What can I expect from this course?"
-- "How will the course work and how will I get help?"
-- "How can I give feedback to improve the course?"
-objectives:
-- "Understand how this course works, how I can get help and how I can give feedback."
-keypoints:
-- "We should all understand and follow the [EIDF Terms and Conditions of Access](https://edinburgh-international-data-facility.ed.ac.uk/about/policies/terms-and-conditions) to ensure this course is conducted in the best teaching environment."
-- "The course will be flexible to best meet the learning needs of the attendees."
-- "Feedback is an essential part of our training to allow us to continue to improve and make sure the course is as useful as possible to attendees."
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand how this course works, how I can get help and how I can give feedback.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What can I expect from this course?
+- How will the course work and how will I get help?
+- How can I give feedback to improve the course?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Code of Conduct
 
@@ -54,5 +58,10 @@ You will be provided with the opportunity to provide feedback on the course afte
 finished. We welcome all this feedback, both good and bad, as this information in key to allow
 us to continually improve the training we offer.
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
+- We should all understand and follow the [EIDF Terms and Conditions of Access](https://edinburgh-international-data-facility.ed.ac.uk/about/policies/terms-and-conditions) to ensure this course is conducted in the best teaching environment.
+- The course will be flexible to best meet the learning needs of the attendees.
+- Feedback is an essential part of our training to allow us to continue to improve and make sure the course is as useful as possible to attendees.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

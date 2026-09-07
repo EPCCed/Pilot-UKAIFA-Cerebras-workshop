@@ -2,13 +2,21 @@
 title: "Pre-processing data into HDF5 format"
 teaching: 15
 exercises: 10
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Pre-process the data into HDF5 format
 
@@ -94,4 +102,10 @@ The `cszoo` tool also generates a
 `finetuning_llama2/train_data/data_params.json` file with a 
 lot of these parameters that will be useful for setup later.
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+

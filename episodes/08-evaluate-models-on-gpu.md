@@ -2,13 +2,21 @@
 title: "Evaluating model performance on GPUs"
 teaching: 10
 exercises: 50
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Evaluating base and fine-tuned models on GPU
 
@@ -640,4 +648,10 @@ I wonder too if it's going into code-writing as gibberish
 because it probably has seen patterns of #s most prominently 
 in code comments in its pretraining? :thinking_face:
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+

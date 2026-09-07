@@ -2,13 +2,21 @@
 title: "Prepare and run the model fine-tuning"
 teaching: 15
 exercises: 0
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Preparing the model fine-tuning
 
@@ -201,5 +209,10 @@ Saving checkpoint: 100%|██████████████████�
 2026-07-27 18:42:04,178 INFO:   Processed 13440 training sample(s) in 2789.260229544 seconds.
 ```
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 

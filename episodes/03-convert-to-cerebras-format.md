@@ -2,13 +2,21 @@
 title: "Converting "
 teaching: 30
 exercises: 10
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Convert HuggingFace checkpoint to Cerebras format
 
@@ -41,5 +49,10 @@ Check that the `*to_cs-2.9.mdl` model was produced successfully:
 ls -lh ~/finetuning_llama2/from_hf/*.mdl
 ```
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -2,13 +2,21 @@
 title: "Download and format the dataset"
 teaching: 30
 exercises: 20
-questions:
-- ""
-objectives:
-- ""
-keypoints:
-- ""
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Objective 1
+- Objective 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- This section will answer Question 1
+- This section will answer Question 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Convert HF checkpoint to CS
 
@@ -106,5 +114,10 @@ python download_data.py
 # You should see the `finetuning_llama2/gsm8k_raw/[train,valid]`
 # populated now.
 ```
+:::::::::::::::::::::::::::::::::::::::: keypoints
 
-{% include links.md %}
+- Keypoint 1
+- Keypoint 2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
