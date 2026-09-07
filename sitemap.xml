@@ -1,213 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/00-connecting.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/00-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/00-welcome.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/00-welcome.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/01-arrays.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/01-arrays.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/01-connecting.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/01-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/02-arrays-as-arguments.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/02-arrays-as-arguments.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/02-downloading-model.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/02-downloading-model.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/03-convert-to-cerebras-format.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/03-convert-to-cerebras-format.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/03-more-on-pointers.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/03-more-on-pointers.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/04-derived-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/04-derived-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/04-download-format-dataset.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/04-download-format-dataset.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/05-interfaces-overloading.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/05-interfaces-overloading.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/05-preprocess-data.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/05-preprocess-data.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/06-prepare-run-fine-tuning.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/06-prepare-run-fine-tuning.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/06-type-extension-polymorphism.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/06-type-extension-polymorphism.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/07-convert-fine-tuned-model.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/07-convert-fine-tuned-model.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/07-type-bound-procedures.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/07-type-bound-procedures.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/08-evaluate-models-on-gpu.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/08-evaluate-models-on-gpu.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/08-generic-io-for-derived-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/08-generic-io-for-derived-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/09-abstract-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/09-abstract-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/10-modules-again.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/10-modules-again.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/11-unlimited-polymorphic-entities.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/11-unlimited-polymorphic-entities.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/12-type-parameters.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/12-type-parameters.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/13-intrinsic-modules.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/13-intrinsic-modules.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/14-interoperability-with-c.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/14-interoperability-with-c.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/404.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/CODE_OF_CONDUCT.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/LICENSE.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/aio.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/discuss.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/discuss.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/images.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/index.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/00-connecting.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/00-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/00-welcome.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/00-welcome.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/01-arrays.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/01-arrays.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/01-connecting.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/01-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/02-arrays-as-arguments.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/02-arrays-as-arguments.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/02-downloading-model.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/02-downloading-model.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/03-convert-to-cerebras-format.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/03-convert-to-cerebras-format.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/03-more-on-pointers.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/03-more-on-pointers.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/04-derived-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/04-derived-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/04-download-format-dataset.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/04-download-format-dataset.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/05-interfaces-overloading.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/05-interfaces-overloading.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/05-preprocess-data.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/05-preprocess-data.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/06-prepare-run-fine-tuning.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/06-prepare-run-fine-tuning.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/06-type-extension-polymorphism.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/06-type-extension-polymorphism.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/07-convert-fine-tuned-model.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/07-convert-fine-tuned-model.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/07-type-bound-procedures.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/07-type-bound-procedures.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/08-evaluate-models-on-gpu.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/08-evaluate-models-on-gpu.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/08-generic-io-for-derived-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/08-generic-io-for-derived-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/09-abstract-types.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/09-abstract-types.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/10-modules-again.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/10-modules-again.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/11-unlimited-polymorphic-entities.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/11-unlimited-polymorphic-entities.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/12-type-parameters.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/12-type-parameters.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/13-intrinsic-modules.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/13-intrinsic-modules.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/14-interoperability-with-c.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/14-interoperability-with-c.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/404.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/LICENSE.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/aio.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/discuss.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/discuss.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/images.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/index.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/instructor-notes.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/key-points.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/profiles.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/reference.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/reference.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor-notes.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/key-points.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/profiles.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/reference.html</loc>
+    <loc>https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/reference.html</loc>
   </url>
 </urlset>
