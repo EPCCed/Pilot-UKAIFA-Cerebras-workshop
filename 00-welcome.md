@@ -18,6 +18,44 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+The first few parts of this are to give you an idea of
+what's possible with this template. Then it gets into
+the course that you'd developed.
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## An exercise with a title
+
+This lets you present exercises for course
+attendees to do.
+
+:::::::::::::::  solution
+
+## Solution
+
+And this is where the solution would be.
+
+:::::::::::::::::::::::::
+
+You can also potentially add text after the exercise
+(and other questions and solutions too).
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+There are some other things you can do to, e.g. 
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Callouts (with their own titles)
+
+You can also have callouts to make some info really obvious.
+
+When you're writing these, you'll notice that you need to
+include the lines of colons at the start and end of a
+section.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Code of Conduct
 
 To make this as good a learning experience as possible for everyone involved we require all

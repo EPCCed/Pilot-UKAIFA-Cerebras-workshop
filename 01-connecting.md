@@ -16,40 +16,6 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-The first few parts of this are to give you an idea of 
-what's possible with this template. Then it gets into 
-the course that you'd developed.
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## An exercise with a title
-
-This lets you present exercises for course 
-attendees to do.
-
-:::::::::::::::  solution
-
-## Solution
-
-And this is where the solution would be.
-
-:::::::::::::::::::::::::
-
-You can also potentially add text after the exercise
-(and other questions and solutions too).
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-                                                                ## Callouts (with their own titles)
-
-You can also have callouts to make some info really obvious.
-
-When you're writing these, you'll notice that you need to 
-include the lines of colons ":" at the start and end of a 
-section.
-                                                                ::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Connecting using SSH
 
 The EIDF Cerebras Cluster is accessed through the EIDF Gateway. 
