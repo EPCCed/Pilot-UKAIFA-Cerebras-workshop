@@ -1,0 +1,47 @@
+Notes for new Carpentries courses:
+
+1. Copy over contents from existing repo
+  1.1 Make sure to copy ".github" file to ensure that
+      page builds as required.
+2. Make `gh-pages` branch
+  2.1 The repo needs both `gh-branch` and `main`!
+3. On the github repo page, go to "Settings" -> "Pages"
+  3.1 Make sure that the page is being pulled from 
+    `gh-pages`, not from `main`
+
+
+Some of the things you can do:
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## An exercise with a title
+
+This lets you present exercises for course
+attendees to do.
+
+:::::::::::::::  solution
+
+## Solution
+
+And this is where the solution would be.
+
+:::::::::::::::::::::::::
+
+You can also potentially add text after the exercise
+(and other questions and solutions too).
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+There are some other things you can do to, e.g.
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Callouts (with their own titles)
+
+You can also have callouts to make some info really obvious.
+
+When you're writing these, you'll notice that you need to
+include the lines of colons at the start and end of a
+section.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
