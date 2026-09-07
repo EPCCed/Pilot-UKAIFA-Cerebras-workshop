@@ -1,6 +1,8 @@
 ---
-title: "Break"
-break: 30
+title: Break
+break: 15
 ---
 
-Comfort break
+Comfort break.
+
+

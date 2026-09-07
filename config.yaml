@@ -17,29 +17,29 @@ carpentry: 'archer2'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Fine-tuning and extracting model weights on Cerebras'
+title: 'Intermediate Modern Fortran'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: 2025-05-06
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, Cerebras, LLM training'
+keywords: 'software, fortran, hpc'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha'
+life_cycle: 'stable'
 
 # License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/EPCCed/Pilot-UKAIFA-Cerebras-workshop'
+source: 'https://github.com/EPCCed/2026-07-27-Fortran-inter'
 
 # Default branch of your lesson
-branch: 'gh-pages'
+branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'info@ukaifa.org.uk'
+contact: 'support@archer2.ac.uk'
 
 # Navigation ------------------------------------------------
 #
@@ -65,18 +65,27 @@ contact: 'info@ukaifa.org.uk'
 
 # Order of episodes in your lesson
 episodes: 
-- 00-welcome.md
-- 01-connecting.md
+- 00-connecting.md
+- 01-arrays.md
 # - 011-break.md
-- 02-downloading-model.md
-- 03-convert-to-cerebras-format.md
+- 02-arrays-as-arguments.md
+- 03-more-on-pointers.md
 # - 031-lunch.md
-- 04-download-format-dataset.md
-- 05-preprocess-data.md
-# - 051break.md
-- 06-prepare-run-fine-tuning.md
-- 07-convert-fine-tuned-model.md
-- 08-evaluate-models-on-gpu.md
+- 04-derived-types.md
+- 05-interfaces-overloading.md
+# - 051-break.md
+- 06-type-extension-polymorphism.md
+- 07-type-bound-procedures.md
+- 08-generic-io-for-derived-types.md
+- 09-abstract-types.md
+# - 091-break.md
+- 10-modules-again.md
+- 11-unlimited-polymorphic-entities.md
+# - 111-lunch.md
+- 12-type-parameters.md
+- 13-intrinsic-modules.md
+# - 131-break.md
+- 14-interoperability-with-c.md
 
 # Information for Learners
 learners: 
