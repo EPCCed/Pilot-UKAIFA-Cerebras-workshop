@@ -4,10 +4,22 @@
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/00-connecting.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/00-welcome.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/01-arrays.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/01-connecting.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/02-arrays-as-arguments.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/02-downloading-model.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/03-convert-to-cerebras-format.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/03-more-on-pointers.html</loc>
@@ -16,13 +28,28 @@
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/04-derived-types.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/04-download-format-dataset.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/05-interfaces-overloading.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/05-preprocess-data.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/06-prepare-run-fine-tuning.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/06-type-extension-polymorphism.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/07-convert-fine-tuned-model.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/07-type-bound-procedures.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/08-evaluate-models-on-gpu.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/08-generic-io-for-derived-types.html</loc>
@@ -70,10 +97,22 @@
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/00-connecting.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/00-welcome.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/01-arrays.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/01-connecting.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/02-arrays-as-arguments.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/02-downloading-model.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/03-convert-to-cerebras-format.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/03-more-on-pointers.html</loc>
@@ -82,13 +121,28 @@
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/04-derived-types.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/04-download-format-dataset.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/05-interfaces-overloading.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/05-preprocess-data.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/06-prepare-run-fine-tuning.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/06-type-extension-polymorphism.html</loc>
   </url>
   <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/07-convert-fine-tuned-model.html</loc>
+  </url>
+  <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/07-type-bound-procedures.html</loc>
+  </url>
+  <url>
+    <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/08-evaluate-models-on-gpu.html</loc>
   </url>
   <url>
     <loc>https://EPCCed.github.io/2026-07-27-Fortran-inter/instructor/08-generic-io-for-derived-types.html</loc>
