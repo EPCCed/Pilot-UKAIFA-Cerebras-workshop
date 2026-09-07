@@ -58,7 +58,7 @@ See the ARCHER2 User and Best Practice Guide for information on how to create SS
 ## TOTP/MFA
 
 ARCHER2 accounts are now required to use timed one-time passwords (TOTP), as part of a multi-factor authorisation (MFA) system.
-Instructions on how to add MFA authentication to a machine account on SAFE can be found [here](https://epcced.github.io/safe-docs/safe-for-users/#how-to-turn-on-mfa-on-your-machine-account).
+Instructions on how to add MFA authentication to a machine account on SAFE can be found here.
 
 ## Data transfer services: scp, rsync, Globus Online
 
