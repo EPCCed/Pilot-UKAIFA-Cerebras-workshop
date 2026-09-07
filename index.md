@@ -10,9 +10,9 @@ humantime: ~
 startdate: '2026-07-27'
 enddate: '2026-07-31'
 instructor:
-- William Lucas
+- Santiago Paredes Saenz
 helper: ''
-email: 'w.lucas@epcc.ed.ac.uk'
+email: 'info@ukaifa.org.uk'
 collaborative_notes: ~
 eventbrite: ~
 site: sandpaper::sandpaper_site
@@ -20,25 +20,43 @@ site: sandpaper::sandpaper_site
 
 <h2>Description</h2>
 
-Fortran (a contraction of Formula Translation) was the first programming language to have a standard (in 1954), but has changed significantly over the years. More recent standards (the latest being Fortran 2023) come under the umbrella term "Modern Fortran". Fortran retains very great significance in many areas of scientific and numerical computing, particularly for applications such as quantum chemistry, plasmas, engineering and fluid dynamics, and in numerical weather prediction and climate models.
+The aim of this workshop is to teach attendees how to train
+a model on the EIDF Cerebras CS-3 cluster, extract the weights
+of the trained model, and run them on a system with different
+architecture (in this case, the EIDF GPU Cluster).
 
-This intermediate course concentrates on some of the more recent features which are central to Modern Fortran. Attendees should be familiar with the basics of Fortran programming which might be covered in an introductory course, e.g., the one at,
+This workshop expands on the
+[Cerebras Modelzoo quickstar tutorial](https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
+and specifically looks at fine-tune a model to perform a new
+task.
 
-<https://epcced.github.io/2026-03-02-Fortran-intro/>
+<h2>Pre-requisites</h2>
 
-So, attendees should be comfortable writing structured Fortran programs based on modules and procedures, and have a sound grounding in variables, logic, flow-of-control, and so on. Some knowledge of Fortran I/O is assumed.
+Before getting started here are a few pre-requisites:
 
-There are two main topics in this intermediate course: the facilities in Fortran for abstraction and polymorphism provided by classes and interfaces, and the facilities for formal interoperability with ANSI C. The course will cover type extension ("classes" and "inheritance"), type-bound procedures ("methods"), generic procedures ("polymorphism"), and so on. The standard iso\_c\_binding module provides facilities for interoperability with C; this allow the communication of Fortran entities with direct analogues C, and also Fortran objects (particularly arrays) which have no direct analogue in C.
-
-Further language features concerning arrays, pointers, and facilities for structured programming using submodules will also be covered along the way.
-
-Knowledge of the object-oriented paradigm would be useful, but is not essential. Knowledge of C is required for the material on C/Fortran interoperation. The course will allow programmers interested in working on larger, structured, software projects to make use of (almost) a full complement of Modern Fortran features.
-
-The course requires a Fortran compiler, for which a local machine or laptop may be appropriate [1]. If you do not have access to a Fortran compiler, course training accounts on ARCHER2 will be available which provide access to various compilers. Use of a text editor will be required (some may prefer an IDE, but we do not intend to consider or support IDEs).
-
-[1] This may typically be gfortran, freely available as part of the GNU Compiler Collection (GCC). See e.g., <https://gcc.gnu.org/wiki/GFortranBinaries>
+  * Access to the Cerebras cluster.
+    * I also suggest following the Cerebras tutorial on
+      the EIDF documentation.
+  * A HuggingFace account and access to the Llama2 family
+    of models.
+    * Both are free, but access to the models needs to be
+      requested and approved (it shouldn't take too long,
+      I got approved roughly 30 min after requesting).
+  * You may also want to follow the
+    [EIDF tutorials](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes),
+    and specifically the
+    [EIDF tutorial on fine tuning models](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example).
+    * A lot of the concepts and tool setup build on top of
+      those (kubernetes pods, persistent volume claims,
+      volume mounts, etc.)
+    * The
+      [train_gsm8k.md](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
+      specifically has information about the dataset we will
+      use and how the evaluation is made.
 
 <hr/>
+
+
 
 <h2 id="general">General Information</h2>
 

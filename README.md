@@ -1,2 +1,2 @@
-# ARCHER2 Intermediate Modern Fortran (27 to 31 July, 2026)
+# Fine-tuning and extracting model weights on Cerebras
 
