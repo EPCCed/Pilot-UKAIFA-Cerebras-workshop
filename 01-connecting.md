@@ -24,18 +24,16 @@ EIDF Gateway.
 
 The EIDF Gateway login address is
 
-```
+``` bash
 eidf-gateway.epcc.ed.ac.uk
 ```
-{: .language-bash}
 
 and to connect to the Cerebras cluster, you will need to run 
 the following command:
 
-```
+``` bash
 ssh -J <username>@eidf-gateway.epcc.ed.ac.uk cerebras
 ```
-{: .language-bash}
 
 Access to the EIDF Cerebras Cluster is via SSH using **both** 
 a time-based code (TOTP) and a passphrase-protected SSH key 
@@ -51,6 +49,5 @@ EIDF Cerebras Cluster in the
 
 - The EIDF Cerebras Cluster is accessed through the EIDF Gateway
 - The EIDF Gateway login address is `eidf-gateway.epcc.ed.ac.uk`
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
