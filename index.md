@@ -26,52 +26,9 @@ of the trained model, and run them on a system with different
 architecture (in this case, the EIDF GPU Cluster).
 
 This workshop expands on the
-[Cerebras Modelzoo quickstar tutorial](https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
+[Cerebras Model Zoo quick start tutorial](https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model)
 and specifically looks at fine-tune a model to perform a new
 task.
-
-<h2>Pre-requisites</h2>
-
-Before getting started here are a few pre-requisites:
-
-  * Access to the Cerebras cluster.
-    * I also suggest following the Cerebras tutorial on
-      the EIDF documentation.
-  * Set up Cerebras Model Zoo
-    * Throughout the tutorial we will use tools from the Model Zoo, 
-      to set them up for the first time:
-    ```bash
-    git clone -b Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo
-    python3.11 -m venv modelzoo_venv
-    source modelzoo_venv/bin/activate
-    pip install --upgrade pip
-    pip install --editable ./modelzoo
-    ```
-    When re-connecting to load the environment again:
-    ```bash
-    source modelzoo_venv/bin/activate
-    ```
-  * A HuggingFace account and access to the Llama2 family
-    of models.
-    * Both are free, but access to the models needs to be
-      requested and approved (it shouldn't take too long,
-      I got approved roughly 30 min after requesting).
-    * To apply go to the [model page in Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b-hf)
-      and you'll be prompted to create an account. 
-      With the account set up you'll be able to request access to the Llama2 models.
-  * You may also want to follow the
-    [EIDF tutorials](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes),
-    and specifically the
-    [EIDF tutorial on fine tuning models](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example).
-    * A lot of the concepts and tool setup build on top of
-      those (kubernetes pods, persistent volume claims,
-      volume mounts, etc.)
-    * The
-      [train_gsm8k.md](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
-      specifically has information about the dataset we will
-      use and how the evaluation is made.
-
-<hr/>
 
 
 
@@ -88,9 +45,11 @@ Before getting started here are a few pre-requisites:
   by the <a href="https://www.archer2.ac.uk/training/code-of-conduct/">ARCHER2 Training Code of Conduct</a>.
 </p>
 
+<hr/>
+
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
-## Prerequisites
+## Computing experience
 
 You should have used remote HPC facilities before. In particular, you should be happy with connecting
 using SSH, know what a batch scheduling system is and be familiar with using the Linux command line.
@@ -98,7 +57,65 @@ You should also be happy editing plain text files in a remote terminal (or, alte
 on your local system and copying them to the remote HPC system using `scp`).
 
 
+## Access to the Cerebras cluster
+
+Your account should have access the Cerebras cluster.
+More information and the steps to login can be found in the [EIDF Cerebras page](https://docs.eidf.ac.uk/services/cerebras/access/).
+
+## Access to the Llama2 model
+
+To download the model you'll need a Hugging Face account and request access to the family of models.
+  * Both are free, but access to the models needs to be
+    requested and approved (it shouldn't take too long,
+    I got approved roughly 30 min after requesting).
+  * To apply go to the [model page in Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b-hf)
+    and you'll be prompted to create an account. 
+    With the account set up you'll be able to request access to the Llama2 models.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Set up Cerebras Model Zoo
+
+Throughout the tutorial we will use tools from the Model Zoo.
+Login to the Cerebras cluster and setup it up.
+
+_Hint_: The [EIDF Cerebras page](https://docs.eidf.ac.uk/services/cerebras/access/)
+and [the Cerebras documentation](https://training-docs.cerebras.ai/rel-2.10.0/getting-started/setup-and-installation) can be a good resource here.
+
+:::::::::::::::  solution
+
+To set up Model Zoo for the first time:
+
+```bash
+git clone -b Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo
+python3.11 -m venv modelzoo_venv
+source modelzoo_venv/bin/activate
+pip install --upgrade pip
+pip install --editable ./modelzoo
+```
+When re-connecting to load the environment again:
+```bash
+source modelzoo_venv/bin/activate
+```
+:::::::::::::::::::::::::
 
 <hr/>
 
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Other useful resources
+
+* You may also want to follow the
+  [EIDF tutorials](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes),
+  and specifically the
+  [EIDF tutorial on fine tuning models](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example).
+  * A lot of the concepts and tool setup build on top of
+    those (kubernetes pods, persistent volume claims,
+    volume mounts, etc.)
+  * The [train_gsm8k.md](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
+    specifically has information about the dataset we will
+    use and how the evaluation is made.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
