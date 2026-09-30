@@ -348,59 +348,9 @@ on the EIDF Cerebras CS-3 cluster, extract the weights of the trained
 model, and run them on a system with different architecture (in this
 case, the EIDF GPU Cluster).</p>
 <p>This workshop expands on the <a href="https://training-docs.cerebras.ai/rel-2.10.0/getting-started/fine-tune-your-first-model" class="external-link">Cerebras
-Modelzoo quickstar tutorial</a> and specifically looks at fine-tune a
+Model Zoo quick start tutorial</a> and specifically looks at fine-tune a
 model to perform a new task.</p>
-<h2>
-Pre-requisites
-</h2>
-<p>Before getting started here are a few pre-requisites:</p>
-<ul><li>
-<p>Access to the Cerebras cluster.</p>
-<ul><li>I also suggest following the Cerebras tutorial on the EIDF
-documentation.</li>
-</ul></li>
-<li>
-<p>Set up Cerebras Model Zoo</p>
-<ul><li>Throughout the tutorial we will use tools from the Model Zoo, to set
-them up for the first time:</li>
-</ul><div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="fu">git</span> clone <span class="at">-b</span> Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo</span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1" aria-label="code-block-1-2"></a><span class="ex">python3.11</span> <span class="at">-m</span> venv modelzoo_venv</span>
-<span id="cb1-3"><a href="#cb1-3" tabindex="-1" aria-label="code-block-1-3"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span>
-<span id="cb1-4"><a href="#cb1-4" tabindex="-1" aria-label="code-block-1-4"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
-<span id="cb1-5"><a href="#cb1-5" tabindex="-1" aria-label="code-block-1-5"></a><span class="ex">pip</span> install <span class="at">--editable</span> ./modelzoo</span></code></pre>
-</div>
-<p>When re-connecting to load the environment again:</p>
-<div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span></code></pre>
-</div>
-</li>
-<li>
-<p>A HuggingFace account and access to the Llama2 family of
-models.</p>
-<ul><li>Both are free, but access to the models needs to be requested and
-approved (it shouldn’t take too long, I got approved roughly 30 min
-after requesting).</li>
-<li>To apply go to the <a href="https://huggingface.co/meta-llama/Llama-2-7b-hf" class="external-link">model page in
-Hugging Face</a> and you’ll be prompted to create an account. With the
-account set up you’ll be able to request access to the Llama2
-models.</li>
-</ul></li>
-<li>
-<p>You may also want to follow the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes" class="external-link">EIDF
-tutorials</a>, and specifically the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example" class="external-link">EIDF
-tutorial on fine tuning models</a>.</p>
-<ul><li>A lot of the concepts and tool setup build on top of those
-(kubernetes pods, persistent volume claims, volume mounts, etc.)</li>
-<li>The <a href="https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main" class="external-link">train_gsm8k.md</a>
-specifically has information about the dataset we will use and how the
-evaluation is made.</li>
-</ul></li>
-</ul><hr><h2 id="general">
+<h2 id="general">
 General Information
 </h2>
 <p id="requirements">
@@ -415,13 +365,13 @@ abide by the
 <a href="https://www.archer2.ac.uk/training/code-of-conduct/" class="external-link">ARCHER2
 Training Code of Conduct</a>.
 </p>
-<div id="prerequisites" class="callout prereq">
+<hr><div id="computing-experience" class="callout prereq">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check"></i>
 </div>
 <span class="callout-header">Prerequisite</span>
-<div id="prerequisites" class="callout-inner">
-<h3 class="callout-title">Prerequisites</h3>
+<div id="computing-experience" class="callout-inner">
+<h3 class="callout-title">Computing experience</h3>
 <div class="callout-content">
 <p>You should have used remote HPC facilities before. In particular, you
 should be happy with connecting using SSH, know what a batch scheduling
@@ -429,10 +379,104 @@ system is and be familiar with using the Linux command line. You should
 also be happy editing plain text files in a remote terminal (or,
 alternatively, editing them on your local system and copying them to the
 remote HPC system using <code>scp</code>).</p>
+<div class="section level2">
+<h2 id="access-to-the-cerebras-cluster">Access to the Cerebras cluster<a class="anchor" aria-label="anchor" href="#access-to-the-cerebras-cluster"></a></h2>
+<p>Your account should have access the Cerebras cluster. More
+information and the steps to login can be found in the <a href="https://docs.eidf.ac.uk/services/cerebras/access/" class="external-link">EIDF Cerebras
+page</a>.</p>
+</div>
+<div class="section level2">
+<h2 id="access-to-the-llama2-model">Access to the Llama2 model<a class="anchor" aria-label="anchor" href="#access-to-the-llama2-model"></a></h2>
+<p>To download the model you’ll need a Hugging Face account and request
+access to the family of models. * Both are free, but access to the
+models needs to be requested and approved (it shouldn’t take too long, I
+got approved roughly 30 min after requesting). * To apply go to the <a href="https://huggingface.co/meta-llama/Llama-2-7b-hf" class="external-link">model page in
+Hugging Face</a> and you’ll be prompted to create an account. With the
+account set up you’ll be able to request access to the Llama2
+models.</p>
 </div>
 </div>
 </div>
-<hr><section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
+</div>
+<div id="set-up-cerebras-model-zoo" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="set-up-cerebras-model-zoo" class="callout-inner">
+<h3 class="callout-title">Set up Cerebras Model Zoo</h3>
+<div class="callout-content">
+<p>Throughout the tutorial we will use tools from the Model Zoo. Login
+to the Cerebras cluster and setup it up.</p>
+<p><em>Hint</em>: The <a href="https://docs.eidf.ac.uk/services/cerebras/access/" class="external-link">EIDF Cerebras
+page</a> and <a href="https://training-docs.cerebras.ai/rel-2.10.0/getting-started/setup-and-installation" class="external-link">the
+Cerebras documentation</a> can be a good resource here.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>To set up Model Zoo for the first time:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="fu">git</span> clone <span class="at">-b</span> Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1" aria-label="code-block-1-2"></a><span class="ex">python3.11</span> <span class="at">-m</span> venv modelzoo_venv</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1" aria-label="code-block-1-3"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1" aria-label="code-block-1-4"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1" aria-label="code-block-1-5"></a><span class="ex">pip</span> install <span class="at">--editable</span> ./modelzoo</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="set-up-cerebras-model-zoo" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="set-up-cerebras-model-zoo" class="callout-inner">
+<h3 class="callout-title">Set up Cerebras Model Zoo<em>
+(continued)</em>
+</h3>
+<div class="callout-content">
+<p>When re-connecting to load the environment again:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<hr><div id="other-useful-resources" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="other-useful-resources" class="callout-inner">
+<h3 class="callout-title">Other useful resources</h3>
+<div class="callout-content">
+<ul><li>You may also want to follow the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes" class="external-link">EIDF
+tutorials</a>, and specifically the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example" class="external-link">EIDF
+tutorial on fine tuning models</a>.
+<ul><li>A lot of the concepts and tool setup build on top of those
+(kubernetes pods, persistent volume claims, volume mounts, etc.)</li>
+<li>The <a href="https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main" class="external-link"><code>train_gsm8k.md</code></a>
+specifically has information about the dataset we will use and how the
+evaluation is made.</li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+
+      <section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
           </tr><tr><td>
 <span class="visually-hidden">Duration: </span>00h 00m
 </td>
@@ -451,7 +495,8 @@ will I get help?<br>How can I give feedback to improve the course?
 Cluster</a>
 </td>
 <td>
-How can I access the EIDF Cerebras Cluster interactively?
+How can I access the EIDF Cerebras Cluster interactively?<br><br>How
+does Cerebras set up and interact with LLMs/ML models?
 </td>
 </tr><tr><td>
 <span class="visually-hidden">Duration: </span>00h 50m

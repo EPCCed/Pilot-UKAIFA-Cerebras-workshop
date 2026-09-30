@@ -566,7 +566,7 @@ attendees.</li>
 </div>
 </section></section><section id="aio-01-connecting"><p>Content from <a href="01-connecting.html">Connecting to the EIDF Cerebras Cluster</a></p>
 <hr>
-<p>Last updated on 2026-09-07 |
+<p>Last updated on 2026-09-30 |
 
         <a href="https://github.com/EPCCed/Pilot-UKAIFA-Cerebras-workshop/edit/gh-pages/episodes/01-connecting.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -580,7 +580,10 @@ attendees.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How can I access the EIDF Cerebras Cluster interactively?</li>
+<li><p>How can I access the EIDF Cerebras Cluster
+interactively?</p></li>
+<li><p>How does Cerebras set up and interact with LLMs/ML
+models?</p></li>
 </ul>
 </div>
 </div>
@@ -590,7 +593,8 @@ attendees.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Understand how to connect to the EIDF Cerebras Cluster.</li>
+<li><p>Understand how to connect to the EIDF Cerebras Cluster.</p></li>
+<li><p>Set up the environment and tools for the tutorial.</p></li>
 </ul>
 </div>
 </div>
@@ -624,6 +628,26 @@ the SAFE web adminsitration service for the first ever login.</p>
 <p>You can find more information about logging in to the EIDF Cerebras
 Cluster in the <a href="https://docs.eidf.ac.uk/services/cerebras/connect/" class="external-link">EIDF
 Documentations</a></p>
+</section><section><h2 class="section-heading" id="set-up-cerebras-model-zoo-if-you-havent-done-so-yet">Set up Cerebras Model Zoo (if you haven’t done so yet)<a class="anchor" aria-label="anchor" href="#set-up-cerebras-model-zoo-if-you-havent-done-so-yet"></a>
+</h2>
+<hr class="half-width">
+<p>Throughout the tutorial we will use tools from the Model Zoo. From
+the Cerebras cluster do following one-time steps:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="fu">git</span> clone <span class="at">-b</span> Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a><span class="ex">python3.11</span> <span class="at">-m</span> venv modelzoo_venv</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1" aria-label="code-block-3-4"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1" aria-label="code-block-3-5"></a><span class="ex">pip</span> install <span class="at">--editable</span> ./modelzoo</span></code></pre>
+</div>
+<p>When re-connecting to load the environment again:</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span></code></pre>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -632,9 +656,19 @@ Documentations</a></p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>The EIDF Cerebras Cluster is accessed through the EIDF Gateway</li>
-<li>The EIDF Gateway login address is
-<code>eidf-gateway.epcc.ed.ac.uk</code>
+<li><p>The EIDF Cerebras Cluster is accessed through the EIDF
+Gateway</p></li>
+<li><p>The EIDF Gateway login address is
+<code>eidf-gateway.epcc.ed.ac.uk</code></p></li>
+<li><p>The Cerebras Model Zoo provides tools to interact with ML
+models.</p></li>
+<li>
+<p>When re-connecting to the cluster load the environment with:</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span></code></pre>
+</div>
 </li>
 </ul>
 </div>
