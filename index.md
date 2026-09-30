@@ -71,6 +71,7 @@ To download the model you'll need a Hugging Face account and request access to t
   * To apply go to the [model page in Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b-hf)
     and you'll be prompted to create an account. 
     With the account set up you'll be able to request access to the Llama2 models.
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -95,11 +96,14 @@ source modelzoo_venv/bin/activate
 pip install --upgrade pip
 pip install --editable ./modelzoo
 ```
+:::::::::::::::::::::::::
+
 When re-connecting to load the environment again:
 ```bash
 source modelzoo_venv/bin/activate
 ```
-:::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <hr/>
 
@@ -114,7 +118,7 @@ source modelzoo_venv/bin/activate
   * A lot of the concepts and tool setup build on top of
     those (kubernetes pods, persistent volume claims,
     volume mounts, etc.)
-  * The [train_gsm8k.md](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
+  * The [`train_gsm8k.md`](https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main)
     specifically has information about the dataset we will
     use and how the evaluation is made.
 
