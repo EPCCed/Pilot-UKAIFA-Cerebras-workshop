@@ -354,18 +354,46 @@ model to perform a new task.</p>
 Pre-requisites
 </h2>
 <p>Before getting started here are a few pre-requisites:</p>
-<ul><li>Access to the Cerebras cluster.
+<ul><li>
+<p>Access to the Cerebras cluster.</p>
 <ul><li>I also suggest following the Cerebras tutorial on the EIDF
 documentation.</li>
 </ul></li>
-<li>A HuggingFace account and access to the Llama2 family of models.
+<li>
+<p>Set up Cerebras Model Zoo</p>
+<ul><li>Throughout the tutorial we will use tools from the Model Zoo, to set
+them up for the first time:</li>
+</ul><div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a><span class="fu">git</span> clone <span class="at">-b</span> Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1" aria-label="code-block-1-2"></a><span class="ex">python3.11</span> <span class="at">-m</span> venv modelzoo_venv</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1" aria-label="code-block-1-3"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1" aria-label="code-block-1-4"></a><span class="ex">pip</span> install <span class="at">--upgrade</span> pip</span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1" aria-label="code-block-1-5"></a><span class="ex">pip</span> install <span class="at">--editable</span> ./modelzoo</span></code></pre>
+</div>
+<p>When re-connecting to load the environment again:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="bu">source</span> modelzoo_venv/bin/activate</span></code></pre>
+</div>
+</li>
+<li>
+<p>A HuggingFace account and access to the Llama2 family of
+models.</p>
 <ul><li>Both are free, but access to the models needs to be requested and
 approved (it shouldn’t take too long, I got approved roughly 30 min
 after requesting).</li>
+<li>To apply go to the <a href="https://huggingface.co/meta-llama/Llama-2-7b-hf" class="external-link">model page in
+Hugging Face</a> and you’ll be prompted to create an account. With the
+account set up you’ll be able to request access to the Llama2
+models.</li>
 </ul></li>
-<li>You may also want to follow the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes" class="external-link">EIDF
+<li>
+<p>You may also want to follow the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes" class="external-link">EIDF
 tutorials</a>, and specifically the <a href="https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/train?id=eidf-by-example" class="external-link">EIDF
-tutorial on fine tuning models</a>.
+tutorial on fine tuning models</a>.</p>
 <ul><li>A lot of the concepts and tool setup build on top of those
 (kubernetes pods, persistent volume claims, volume mounts, etc.)</li>
 <li>The <a href="https://gitlab.eidf.ac.uk/epcc/ukaifa/-/tree/main" class="external-link">train_gsm8k.md</a>
@@ -551,7 +579,7 @@ course.</p>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.21.0" class="external-link">sandpaper (0.21.0)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/EPCCed/varnish/tree/1a1a3e52f4c19ff0490c935f032f5c6d3b131a78" class="external-link">varnish (1.0.9)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.21.1" class="external-link">sandpaper (0.21.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/EPCCed/varnish/tree/1a1a3e52f4c19ff0490c935f032f5c6d3b131a78" class="external-link">varnish (1.0.9)</a></p>
 		</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -573,8 +601,8 @@ course.</p>
   "url": "https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/index.html",
   "identifier": "https://epcced.github.io/Pilot-UKAIFA-Cerebras-workshop/instructor/index.html",
   "dateCreated": "2025-05-06",
-  "dateModified": "2026-09-29",
-  "datePublished": "2026-09-29"
+  "dateModified": "2026-09-30",
+  "datePublished": "2026-09-30"
 }
 
   </script><script>
@@ -583,7 +611,7 @@ course.</p>
           var _paq = window._paq = window._paq || [];
           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
           _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-          _paq.push(["setDomains", ["*.lessons.carpentries.org","*.datacarpentry.github.io","*.datacarpentry.org","*.librarycarpentry.github.io","*.librarycarpentry.org","*.swcarpentry.github.io", "*.carpentries.github.io"]]);
+          _paq.push(["setDomains", ["*.lessons.carpentries.org","*.datacarpentry.github.io","*.datacarpentry.org","*.hpc-carpentry.github.io","*.hpc-carpentry.org","*.librarycarpentry.github.io","*.librarycarpentry.org","*.swcarpentry.github.io", "*.carpentries.github.io"]]);
           _paq.push(["setDoNotTrack", true]);
           _paq.push(["disableCookies"]);
           _paq.push(["trackPageView"]);
