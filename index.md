@@ -37,11 +37,28 @@ Before getting started here are a few pre-requisites:
   * Access to the Cerebras cluster.
     * I also suggest following the Cerebras tutorial on
       the EIDF documentation.
+  * Set up Cerebras Model Zoo
+    * Throughout the tutorial we will use tools from the Model Zoo, 
+      to set them up for the first time:
+    ```bash
+    git clone -b Release_2.10.0 https://github.com/Cerebras/modelzoo.git ./modelzoo
+    python3.11 -m venv modelzoo_venv
+    source modelzoo_venv/bin/activate
+    pip install --upgrade pip
+    pip install --editable ./modelzoo
+    ```
+    When re-connecting to load the environment again:
+    ```bash
+    source modelzoo_venv/bin/activate
+    ```
   * A HuggingFace account and access to the Llama2 family
     of models.
     * Both are free, but access to the models needs to be
       requested and approved (it shouldn't take too long,
       I got approved roughly 30 min after requesting).
+    * To apply go to the [model page in Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b-hf)
+      and you'll be prompted to create an account. 
+      With the account set up you'll be able to request access to the Llama2 models.
   * You may also want to follow the
     [EIDF tutorials](https://getting-started-with-the-gpu-service-and-llms-fbe560.pages.eidf.ac.uk/#/?id=beginner39s-guide-to-eidf-navigating-the-gpu-service-and-kubernetes),
     and specifically the
